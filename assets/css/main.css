@@ -1288,13 +1288,18 @@ input, select, textarea {
 			}
 
 		#header .logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 15.5rem;
+			height: 15.5rem;
 			line-height: 5.5rem;
 			border: solid 1px #ffffff;
 			border-radius: 100%;
 		}
 
+		.avatar {
+			width: 15.5rem;
+			height: 15.5rem;
+			border-radius: 50%;
+		}
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
@@ -1443,6 +1448,12 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
+			.avatar {
+				width: 4.75rem;
+				height: 4.75rem;
+				line-height: 4.75rem;
+				border-radius: 50%;
+			}
 				#header .logo .icon:before {
 					font-size: 1.75rem;
 				}
