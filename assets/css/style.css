@@ -35,7 +35,7 @@ body::before {
 }
 
 a {
-  color: #18d26e;
+  color: #d8007e;
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header h2 span {
   color: #fff;
-  border-bottom: 2px solid #18d26e;
+  border-bottom: 2px solid #d8007e;
   padding-bottom: 6px;
 }
 
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .social-links a:hover {
-  background: #18d26e;
+  background: #d8007e;
 }
 
 @media (max-width: 992px) {
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #18d26e;
+  background-color: #d8007e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -364,7 +364,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #4ceb95;
+  background: #d8007e;
   margin: 4px 10px;
 }
 
@@ -384,7 +384,7 @@ section .container {
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #18d26e;
+  color: #d8007e;
 }
 
 .about-me .content ul {
@@ -405,7 +405,7 @@ section .container {
 .about-me .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #18d26e;
+  color: #d8007e;
   line-height: 0;
 }
 
@@ -436,7 +436,7 @@ section .container {
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   padding: 12px;
-  color: #18d26e;
+  color: #d8007e;
   border-radius: 50px;
   line-height: 0;
 }
@@ -488,7 +488,7 @@ section .container {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #18d26e;
+  background-color: #d8007e;
 }
 
 /*--------------------------------------------------------------
@@ -593,7 +593,7 @@ section .container {
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #d8007e;
 }
 
 /*--------------------------------------------------------------
@@ -608,7 +608,7 @@ section .container {
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 30px 20px;
   margin-top: -2px;
   border-left: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
@@ -620,7 +620,7 @@ section .container {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #18d26e;
+  color: #d8007e;
   margin-bottom: 10px;
 }
 
@@ -631,6 +631,22 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+}
+
+.resume .resume-item .language {
+  font-size: 12px;
+  background: rgba(216, 0, 126, 0.30);
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+  padding: 0;
+  margin: 0 auto 15px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  padding: 2px 15px;
 }
 
 .resume .resume-item ul {
@@ -653,8 +669,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #18d26e;
-  border: 2px solid #18d26e;
+  background: #d8007e;
+  border: 2px solid #d8007e;
 }
 
 /*--------------------------------------------------------------
@@ -671,7 +687,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #18d26e;
+  background: #d8007e;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -716,8 +732,8 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #18d26e;
-  border-color: #18d26e;
+  background: #d8007e;
+  border-color: #d8007e;
 }
 
 .services .icon-box:hover .icon {
@@ -725,7 +741,7 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #18d26e;
+  color: #d8007e;
 }
 
 .services .icon-box:hover .icon::before {
@@ -768,7 +784,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #18d26e;
+  background: #d8007e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -962,7 +978,7 @@ section .container {
 }
 
 .portfolio-details .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #18d26e;
+  background-color: #d8007e;
 }
 
 /*--------------------------------------------------------------
@@ -977,7 +993,7 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #18d26e;
+  color: #d8007e;
   border-radius: 50%;
   padding: 14px;
   float: left;
@@ -1014,7 +1030,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #18d26e;
+  color: #d8007e;
 }
 
 .contact .php-email-form {
@@ -1038,7 +1054,7 @@ section .container {
 .contact .php-email-form .sent-message {
   display: none;
   background: rgba(255, 255, 255, 0.08);
-  background: #18d26e;
+  background: #d8007e;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1058,7 +1074,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #d8007e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1102,7 +1118,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #18d26e;
+  background: #d8007e;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1156,7 +1172,7 @@ section .container {
 }
 
 .credits a {
-  color: #18d26e;
+  color: #d8007e;
   transition: 0.3s;
 }
 
